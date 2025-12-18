@@ -1,7 +1,7 @@
 #1st question
 import datetime;
 present=datetime.datetime.now();
-print("present date is",present)
+print("current date and time:",present)
 
 
 #2nd question
