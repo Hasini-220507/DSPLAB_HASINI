@@ -1,7 +1,7 @@
 #1st question
 import datetime;
 present=datetime.datetime.now();
-print(present)
+print("present date is",present)
 
 
 #2nd question
@@ -101,7 +101,7 @@ d_values=input("enter the numbers separated by comma");
 d_list=d_values.split(",")
 result=[];
 for d in d_list:
-      r=math.sqrt((2*c*int(d)/h);
+      r=math.sqrt(2*c*int(d)/h);
       result.append(str(round(r)));
       print(",".join(result));            
 
